@@ -6,3 +6,26 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+import Backpack from "./Backpack.js";
+import Drink from "./Drink.js";
+
+const everydayPack = new Backpack (
+    "everyday",
+    10,
+    "purple",
+    3,
+    15,
+    26,
+    26,
+    false
+)
+
+console.log(everydayPack);
+
+const matchDrink = new Drink (
+    "matcha latte",
+    "iced",
+    24
+)
+
+console.log(matchDrink);
